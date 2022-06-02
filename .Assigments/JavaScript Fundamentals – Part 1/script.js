@@ -1,17 +1,19 @@
-// LECTURE: Values and Variables
-let country = "Portugl";
-let continent = "Europe";
+//*LECTURE: Values and Variables*
+const country = "Portugl";
+const continent = "Europe";
 let population = 10;
 
 console.log(country);
 console.log(continent);
 console.log(population);
 
-//LECTURE: Data Type
-let isIsland = false;
+//*LECTURE: Data Type*
+isIsland = false;
 let language;
 
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
-console.log(typeof language);
+
+//*LECTURE: let, const and var*
+language = "Portuguese";
