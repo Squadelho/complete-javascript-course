@@ -14,9 +14,9 @@ console.log(firstName);
 console.log(myFirtsJob); 
 */
 
-//---------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////
 
-/* L12 - Primitive Data types:
+/*      L12 - Primitive Data types:
 Number - Floating point numbers -> used for decimals and interger: leat age = 23;
 String - Sequence of characters -> used for text: let firstName = "Jonas";
 Boolean - Logical type that can only be true or false -> used for taking decisions: let fullAge = true; */
@@ -41,12 +41,46 @@ console.log(typeof year);
 
 console.log(typeof null); //BUG!!!
 */
-//---------------------------------------------------------------------------
 
-//L13 - let, const and var
+///////////////////////////////////////////////////////////////////
+
+//      L13 - let, const and var*
 
 // let- pode ser mudado mais tarde: let age --> usar quando a variavel muda durante o script
 // const- NAO pode ser mudado: const birthYear --> usar sempre que possivel
 // var- old school nao usar!
 
-//---------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////
+
+//      L14 - Basic Operators
+
+/*
+// Math operators
+const now = 2037;
+const ageHugo = now - 1994;
+const ageSarah = now - 2020;
+console.log(ageHugo, ageSarah);
+
+console.log(ageHugo * 2, ageHugo / 10, 2 ** 3); //2**3 = 2*2*2
+
+const firstName = "Hugo";
+const lastName = "Oliveira";
+console.log(firstName + " " + lastName);
+
+// Assignment operators
+let x = 10 + 5; // = 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+console.log(x);
+
+// Comparison operators
+console.log(ageHugo > ageSarah); // true or false >, <, >=, <=
+console.log(ageSarah >= 18);
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018); // faz a operação 1º depois a comparação
+*/
+
+///////////////////////////////////////////////////////////////////
