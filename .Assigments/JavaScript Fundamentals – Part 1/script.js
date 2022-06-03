@@ -1,5 +1,5 @@
 //*LECTURE: Values and Variables*
-const country = "Portugl";
+const country = "Portugal";
 const continent = "Europe";
 let population = 10;
 
@@ -17,3 +17,21 @@ console.log(typeof country);
 
 //*LECTURE: let, const and var*
 language = "Portuguese";
+
+//*LECTURE: Basic Operators*
+let populationEachSide = population / 2;
+population++;
+console.log(population);
+let populationFinland = 6;
+console.log(population > populationFinland);
+const averagePopulation = 33;
+console.log(population < averagePopulation);
+console.log(
+  country +
+    " is in " +
+    continent +
+    " and its " +
+    population +
+    " million people speak " +
+    language
+);
