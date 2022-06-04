@@ -84,3 +84,22 @@ console.log(now - 1991 > now - 2018); // faz a operação 1º depois a comparaç
 */
 
 ///////////////////////////////////////////////////////////////////
+
+//      L15 - Operators Precedence
+
+/* 
+const now = 2037;
+const ageHugo = now - 1994;
+const ageSarah = now - 2020;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10 1º faz a conta da esquerda para a direita
+console.log(x, y); // direita para a esquerda
+
+const averageAge = (ageHugo + ageSarah) / 2; // (...) prioridade
+console.log(ageHugo, ageSarah, averageAge); 
+*/
+
+///////////////////////////////////////////////////////////////////
