@@ -160,4 +160,26 @@ console.log(century);
 
 ///////////////////////////////////////////////////////////////////
 
-//      L20 -
+//      L20 - Type Conversion and Coercion
+
+// Type Conversion
+const inputYear = `1991`;
+console.log(Number(inputYear), inputYear); //para converter string em numero
+console.log(Number(inputYear) + 18);
+
+console.log(Number("jonas")); // resultado: NaN
+console.log(typeof NaN);
+
+console.log(String(23), 23); // converter de numero p/ string
+
+// Type Coercion
+console.log("I am " + 23 + " Years old"); // + transforma numero em string
+console.log("23" - "10" - 3); // resultado 10: - transforma string em numero
+console.log("23" * "2"); // resultado 46: * ou / transforma em numero
+
+let n = "1" + 1; // '11' - string
+n = n - 1; // 10 - numero
+
+///////////////////////////////////////////////////////////////////
+
+//      L21 -
