@@ -162,6 +162,7 @@ console.log(century);
 
 //      L20 - Type Conversion and Coercion
 
+/* 
 // Type Conversion
 const inputYear = `1991`;
 console.log(Number(inputYear), inputYear); //para converter string em numero
@@ -178,8 +179,37 @@ console.log("23" - "10" - 3); // resultado 10: - transforma string em numero
 console.log("23" * "2"); // resultado 46: * ou / transforma em numero
 
 let n = "1" + 1; // '11' - string
-n = n - 1; // 10 - numero
+n = n - 1; // 10 - numero 
+*/
 
 ///////////////////////////////////////////////////////////////////
 
-//      L21 -
+//      L21 - Truthy and Falsy Values
+
+/* 
+// 5 falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+  console.log(`Don't spend it all`);
+} else {
+  console.log(`You should get a job`);
+}
+
+let height;
+if (height) {
+  console.log(`height is defined`);
+} else {
+  console.log(`height is undefined`);
+}
+*/
+
+///////////////////////////////////////////////////////////////////
+
+//      L22 -
