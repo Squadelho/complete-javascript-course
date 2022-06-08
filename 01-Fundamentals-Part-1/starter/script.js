@@ -212,4 +212,36 @@ if (height) {
 
 ///////////////////////////////////////////////////////////////////
 
-//      L22 -
+//      L22 - Equality Operators: == vs. ===
+
+/* 
+const age = 18;
+if (age === 18) console.log(`you just became an adult (strict)`);
+
+// 18 === 18 -> true
+// 18 == 18 -> true
+// '18' == 18 -> true
+// '18' === 18 -> false
+
+if (age == 18) console.log(`you just became an adult (loose)`); //evitar usar
+
+const favourite = Number(prompt(`What's your favorite number?`)); // manda sempre string -> Number para converter em numero
+console.log(favourite, typeof favourite);
+
+if (favourite === 23) {
+  console.log("cool! 23 is the number");
+} else if (favourite === 7) {
+  console.log(`7 is also cool number`);
+} else {
+  console.log(`${favourite} is not 23 or 7`);
+}
+
+if (favourite !== 23) {
+  // !== -> diferente de (strict)
+  console.log(`Why not 23?`);
+} 
+*/
+
+///////////////////////////////////////////////////////////////////
+
+//      L23 -
