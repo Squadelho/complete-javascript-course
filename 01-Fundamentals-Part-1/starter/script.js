@@ -244,4 +244,34 @@ if (favourite !== 23) {
 
 ///////////////////////////////////////////////////////////////////
 
-//      L23 -
+//      L24 - Logical Operators
+
+/* 
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense); // ! -> not
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log(`Sarah is able to drive!`);
+} else {
+  console.log(`Someone else should drive`);
+}
+
+const isTired = true; // C
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (shouldDrive && !isTired) {
+  console.log(`Sarah is able to drive!!`);
+} else {
+  console.log(`Someone else should drive`);
+}
+ */
+
+///////////////////////////////////////////////////////////////////
+
+//      L26 -
